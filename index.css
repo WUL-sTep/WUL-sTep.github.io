@@ -1,9 +1,25 @@
 <style type="text/css">
 
-body{
-background: pink
-
-
+body {   
+   background: url(WUL-sTep.github.io/WUL.com.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  }
+  
+  h2{
+Font-family: Arial, ‘Times New Roman’, Times, Sans-serif;
+margin-left: 9em;
+font-color:pink;
 }
+
+p{
+Font-family: Arial, ‘Times New Roman’, Times, Sans-serif;
+margin-left: 10em;
+}
+
+
+    
 -->
 </style>
