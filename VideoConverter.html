@@ -25,7 +25,7 @@ color:#E75480
 p{
 Font-family: Arial, ‘Times New Roman’, Times, Sans-serif;
 margin-left: 18.5em;
-margin-right: 19.75em;
+margin-right: 20.5em;
 }
     
 -->
@@ -44,6 +44,17 @@ margin-right: 19.75em;
 <p> And the best part…</p>
 <h2> WE HAVE REDUCED ADS! </h2>
 <p> So you don’t have to close 2 virussy tabs with every download. The only thing lagging this page is the amount of useless text </p>
+<?php
+    require('youtube-dl.class.php');
+    try {
+        // Instantly download a YouTube video (using the default settings).
+        new yt_downloader('http://www.youtube.com/watch?v=aahOEZKTCzU', TRUE);
+
+        // Instantly download a YouTube video as MP3 (using the default settings).
+        new yt_downloader('http://www.youtube.com/watch?v=aahOEZKTCzU', TRUE, 'audio');
+    }
+    catch (Exception $e) {
+        die($e->getMessage());
 
 <p> If you need universal drum kits, sounds, or vocal cuts,click the Producer Link above.
 </p>
