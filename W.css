@@ -34,7 +34,7 @@ ul {
 }
 
 li {
-    border-right: 1px solid #C71585;
+    border-right: 1px dotted #C71585;
 }
 
 li:last-child {
