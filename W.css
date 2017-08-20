@@ -32,7 +32,13 @@ ul {
     top: .5;
     width: 100%;
 }
+li {
+    border-right: 1px solid #FF1493;
+}
 
+li:last-child {
+    border-right: none;
+}
 li {
     float: left;
 }
