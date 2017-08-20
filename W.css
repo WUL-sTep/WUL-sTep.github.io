@@ -26,7 +26,7 @@ ul {
 
  ul {
     position: fixed;
-    top: 1;
+    top: .5;
     width: 100%;
 }
 
